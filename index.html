@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant-Website-UI</title>
+    <link rel="stylesheet" href="./asset/style2.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="container-item">
+            <nav class="navbar">
+                <div class="img"><img src="./asset/logo.png" alt="" class="logo"></div>
+                <div class="nav-link">
+                    <ul class="nav-list font">
+                        <li class="nav-item active"><a href="#home">Home</a></li>
+                        <li class="nav-item"><a href="#menu" >Menu</a></li>
+                        <li class="nav-item"><a href="#about">About Us</a></li>
+                        <li class="nav-item"><a href="#services" id="#">Services</a></li>
+               
+                    </ul>
+                    <ul class="slidebar font">
+                        <li class="nav-item active"><a href="#home">Home</a></li>
+                        <li class="nav-item"><a href="#menu" >Menu</a></li>
+                        <li class="nav-item"><a href="#about">About Us</a></li>
+                        <li class="nav-item"><a href="#services" id="#">Services</a></li>
+                        <li class="nav-icon" onclick=showSlidebar()> <a href="#"><i class="fa-solid fa-bars"></i></a></li>
+                    </ul>
+                </div>
+                
+                <div class="search">
+                    <p> <i class="fa fa-search"></i></p>
+                    <p> <i class="fa-solid fa-bag-shopping"></i></p>
+                    <p><i class="fa-solid fa-phone-volume call"></i></p>
+            </nav>
+            <div class="hero-section" id="home">
+                <div class="section-item1">
+                    <h1 class="heading">Dive into Delights <br> Of Delectable <span>Food</span></h1>
+                    <p class="para font">Where Each Plate Weaves a Story Of Culinary  Mastery and Passionate
+                        Craftsmanship.</p>
+                    <div class="s-i-1">
+                        <button class="btn">Order Now</button>
+                        <div class="watch-btn">
+                            <p class="font">Watch Videos </p>
+                            <p class="icon"><i class="fa-solid fa-play"> </i></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="section-item2">
+                    <div class="hero-img">
+                        <img src="./asset/girl-photo.png" alt="">
+                    </div>
+                    <div class="hero-box">
+                        <div class="hero-box-item">
+                            <div class="box-item1">
+                                <img src="./asset/Mask group (1).png"  alt="">
+                            </div>
+                            <div class="box-item2">
+                                <p>Spicy noodles</p>
+                                <p>
+                                    <span class="fa fa-star star1 checked"></span>
+                                    <span class="fa fa-star star1 checked"></span>
+                                    <span class="fa fa-star star1 checked"></span>
+                                    <span class="fa fa-star star2"></span>
+                                    <span class="fa fa-star star2"></span>
+                                </p>
+                                <p><span>$</span>18.00</p>
+                            </div>
+                        </div>
+                        <div class="hero-box-item">
+                            <div class="box-item1">
+                                <img src="./asset/Mask group (1).png" width="60px" alt="">
+                            </div>
+                            <div class="box-item2">
+                                <p>Spicy noodles</p>
+                                <p>
+                                    <span class="fa fa-star star1 checked"></span>
+                                    <span class="fa fa-star star1 checked"></span>
+                                    <span class="fa fa-star star1 checked"></span>
+                                    <span class="fa fa-star star1"></span>
+                                    <span class="fa fa-star star2"></span>
+                                </p>
+                                <p><span>$</span>18.00</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="menu-section" >
+            <div class="menu-sec-item1">
+                <div class="menu-cart border">
+                    <div class="card-item">
+                        <img src="./asset/Group 21 (1).png"   alt="">
+                        <p class="font">Main Dish</p>
+                        <span>(886 dishes)</span>
+                    </div>
+                </div>
+                <div class="menu-cart border">
+                    <div class="card-item">
+                        <img src="./asset/Group 22.png"   alt="">
+                        <p class="font">Break Fast</p>
+                        <span>(12 break fast)</span>
+                    </div>
+                </div>
+                <div class="menu-cart border">
+                    <div class="card-item">
+                        <img src="./asset/Group 23.png"  alt="">
+                        <p class="font">Dessert</p>
+                        <span>(48 dessert)</span>
+                    </div>
+                </div>
+                <div class="menu-cart border">
+                    <div class="card-item">
+                        <img src="./asset/Group 24.png"   alt="">
+                        <p class="font">Browse All</p>
+                        <span>(255 items)</span>
+                    </div>
+                </div>
+            </div>
+            <div class="menu-sec-item2" id="menu">
+                <div class="menu-sec2-cart">
+                    <p class="font">SPECIAL DISHES</p>
+                    <h2 class="font">Stadout Dishes <br> From Our Menu</h2>
+                </div>
+                <div class="menu-sec2-cart2">
+                    <div class="cart2-item border">
+                        <img src="./asset/Fattoush salad.png"  alt="">
+                        <div class="cart-item-cart1">
+                            <p class="font">Fattoush salad</p>
+                            <p><span class="font">Desciption of the itme</span></p>
+                            <div class="cart1-item">
+                                <p class="font"><span>$</span>24.00</p>
+                                <p> <span class="fa fa-star star1 checked"> </span> 4.9</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cart2-item border">
+                        <img src="./asset/Vegetable salad.png"   alt="">
+                        <div class="cart-item-cart1">
+                            <p class="font">Vegetable salad</p>
+                            <p><span class="font">Desciption of the itme</span></p>
+                            <div class="cart1-item">
+                                <p class="font"><span>$</span>24.00</p>
+                                <p> <span class="fa fa-star star1 checked"> </span> 4.9</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cart2-item box-item3 border">
+                        <img src="./asset/Egg salad.png"  alt="">
+                        <div class="cart-item-cart1">
+                            <p class="font">Egg veggi salad</p>
+                            <p><span class="font">Desciption of the itme</span></p>
+                            <div class="cart1-item">
+                                <p class="font"><span>$</span>24.00</p>
+                                <p> <span class="fa fa-star star1 checked"> </span> 4.9</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="aboutUs-section" id="about">
+            <div class="about-sec-cart1 ">
+                <img src="./asset/Group 25.png" alt="" >
+            </div>
+            <div class="about-sec-cart2">
+                <p class="para1 font"> TESTIMONIALS</p>
+                <h2 class="heading2 font">What Our Customer<br> Say About us</h2>
+                <p class="para2 font">"I had the pleasure of dining at Foodi last night, and I'm still raving about the experience! The attention to detail in presentaion &nbsp; and service was impeccable"</p>
+              <div class="sec-cart-item1">
+                    <div class="image-cart">
+                        <img src="./asset/Mask group (2).png" alt="" >
+                        <img src="./asset/Mask group (3).png" alt="" >
+                        <img src="./asset/Mask group (4).png" alt="" >
+                    </div>
+                    <div class="imager-cart2">
+                        <p class="font">Customer Feedback</p>
+                        <p class="p5"><span class="fa fa-star star1 checked"> </span>4.9 <spna class="review">(18.6k Reviews)</spna></p>
+                    </div>
+              </div>
+            </div>
+            
+        </div>
+        <div class="service-section" id="services">
+             <div class="ser-conatainer1">
+                    <p class="font p6 mt">OUR STORY & SERVICES</p>
+                    <h2 class="mt font">Our Culinary Journey And Services</h2>
+                    <p class="font p7 mt">Rooted in passion, we curate unforgettable dining  experience and offer exceptional services,  blending culinary artisry with warm hospitality.</p>
+                    <button class="btn mt">Explore</button>
+             </div>
+             <div class="ser-container2">
+                    <div class="container-item1">
+                        <div class="ser-con-box  border">
+                            <div class="con-box">
+                                <img src="./asset/fi-rr-salad.png" alt="" class="mb">
+                                <p class="font mb">CATERING</p>
+                                <P  class="p10">Delight your guests <br> with our flavours and presentation</P>
+                           </div>
+                        </div>
+                        <div class="ser-con-box  border">
+                            <div class="con-box">
+                                <img src="./asset/fi-rr-time-fast.png" alt="" class="mb">
+                                <p class="font mb">FAST DELIVERY</p>
+                                <P class="p10">We deliver your order <br> promptly to your door</P>
+                           </div>
+                        </div>
+                    </div>
+                    <div class="container-item2">
+                        <div class="ser-con-box  border">
+                            <div class="con-box">
+                                <img src="./asset/fi-rr-shopping-cart-check.png" alt="" class="mb">
+                                <p class="font mb">ONLINE ORDERING</p>
+                                <P class="p10">Explore menu & order with using our Online Ordering</P>
+                           </div>
+                        </div>
+                        <div class="ser-con-box border">
+                            <div class="con-box">
+                                <img src="./asset/fi-rr-gift.png" alt=""  class="mb">
+                                <p class="font mb">GIFT CARDS</p>
+                                <P  class="p10">Give the gift of exceptional dinnig with Foodi Gift Cards</P>
+                           </div>
+                        </div>
+                    </div>
+             </div>
+        </div>
+        <footer class="footer">
+            <div class="foter-card">
+                <img src="./asset/logo.png" alt="">
+                <p class="p8">Savor thr artistry where <br>every dish is a culinary <br>masterpiece.</p>
+            </div>
+            <div class="foter-card">
+              
+                <ul>
+                    <p class="font">Useful links</p>
+                    <li> <a href="#">About us</a></li>
+                    <li> <a href="#">Events</a></li>
+                    <li><a href="#">Blogs</a></li>
+                    <li><a href="#">FAQ</a></li>
+                </ul>
+            </div>
+            <div class="foter-card">
+               
+                <ul>
+                    <p class="font">Main Menu</p>
+                    <li> <a href="#">About us</a></li>
+                    <li> <a href="#">Events</a></li>
+                    <li><a href="#">Blogs</a></li>
+                    <li><a href="#">FAQ</a></li>
+                </ul>
+            </div>
+            <div class="foter-card">
+              
+                <ul>
+                    <p class="font">Contact Us</p>
+                    <li> <a href="#">About us</a></li>
+                    <li> <a href="#">Events</a></li>
+                    <li><a href="#">Blogs</a></li>
+                    <li><a href="#">FAQ</a></li>
+                </ul>
+            </div>
+        </footer>
+      
+    </div>
+    <p class="p9">	&#169;Restaurant-Website-UI 2024 . All rights reserved.</p>
+</body>
+
+</html>
